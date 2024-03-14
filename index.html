@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header"> 
+<div class="menu container">
+    <img src="Imagenes/logo patitas.svg" alt="" width="42" height="42">
+    <a href="#" class="logo">MisPatitas</a>
+    <input type="checkbox" id="menu"/>
+    <label for="menu">
+        <img src="" alt="">
+    </label>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Gatos</a></li>
+            <li><a href="#">Perros</a></li>
+            <li><a href="#">Equinos</a></li>
+            <li><a href="#">Aves</a></li>
+            <li><a href="#">Ofertas</a></li>
+            <li><a href="#">Sobrenosotros</a></li>
+            <li><a href="#">Contacto</a></li>
+            <li><a href="#">Tucarrito</a></li>
+             
+        </ul>
+
+        
+    </nav>
+    <div>
+        <ul>
+            <li class="submenu">
+                <img id="img-carrito" src="Imagenes/bolsa.svg" alt="car"  width="64" height="64">
+                <div id="carrito">
+                    <table id="lista-carrito">
+                        <thead>
+                            <tr>
+                                <th>Imagen</th>
+                                <th>Nombre</th>
+                                <th>Precio</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                    <a href="#" id="vaciar-carrito" class="btn-3">Vaciar Carrito</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="header-content container">
+    <div class="header-txt">
+        <span>Bienvenido a nuestra tienda online "Patitas Vet Shop"</span>
+        <h1>Ofertas Especiales</h1>
+        <p>
+            ¡Ofertas irresistibles para mantener a tu mascota feliz y saludable!
+
+        </p>
+        <div class="butons">
+            <a href="#" class="btn-1">informacion</a>
+            <a href="#" class="btn-1">leer mas</a>
+        </div>
+    </div>
+    <div class="header-img">
+        <img src="Imagenes/COMBOS.png" alt="">
+    </div>
+</div>
+
+</header>
+
+<section class="oferts container">
+
+    <div class="ofert-1 b1">
+        <div class="ofert-txt">
+            <h3>Comida en choquetas para perros adultos </h3>
+            <a href="#">leer mas</a>
+        </div>
+        <div>
+            <img src="Imagenes/RINGO.png" alt="">
+        </div>
+    </div>
+
+    <div class="ofert-1 b2">
+        <div class="ofert-txt">
+            <h3>comida para gatos en croquetas Mirringo</h3>
+            <a href="#">leer mas</a>
+        </div>
+        <div>
+            <img src="Imagenes/Mirringo.png" alt="">
+        </div>
+    </div>
+
+    <div class="ofert-1 b3">
+        <div class="ofert-txt">
+            <h3>Arena para gatos Lavanda aroma a calabaza</h3>
+            <a href="#">leer mas</a>
+        </div>
+        <div>
+            <img src="Imagenes/arenagatos.png" alt="">
+        </div>
+    </div>
+
+    
+        
+    </div>
+
+</section>
+
+<main class="products container">
+
+    <h2>productos</h2>
+
+    <div class="box-container" id="lista-1">
+
+        <div class="box">
+            <img src="Imagenes/dog show.png" alt="">
+            <div class="product-txt">
+                <h3>Purina Dog Show</h3>
+                <p>Calidad Premium</p>
+                <p class="Precio">$25000</p>
+                <a href="#" class="agregar-carrito btn-3" data-id="1">
+                    Agregar al carrito
+                </a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="Imagenes/RINGO.png" alt="">
+            <div class="product-txt">
+                <h3>Purina Ringo</h3>
+                <p>Calidad Premium</p>
+                <p class="Precio">$25000</p>
+                <a href="#" class="agregar-carrito btn-3" data-id="2">
+                    Agregar al carrito
+                </a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="Imagenes/comedero.png" alt="">
+            <div class="product-txt">
+                <h3>Comedero para perros</h3>
+                <p>Calidad Premium</p>
+                <p class="Precio">$25000</p>
+                <a href="#" class="agregar-carrito btn-3" data-id="3">
+                    Agregar al carrito
+                </a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="Imagenes/collar.png" alt="">
+            <div class="product-txt">
+                <h3>Collar para perros</h3>
+                <p>Calidad Premium</p>
+                <p class="Precio">$25000</p>
+                <a href="#" class="agregar-carrito btn-3" data-id="4">
+                    Agregar al carrito
+                </a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="Imagenes/jabon.png" alt="">
+            <div class="product-txt">
+                <h3>Jabon antipulgas</h3>
+                <p>Calidad Premium</p>
+                <p class="Precio">$25000</p>
+                <a href="#" class="agregar-carrito btn-3" data-id="5">
+                    Agregar al carrito
+                </a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="Imagenes/Mirringo.png" alt="">
+            <div class="product-txt">
+                <h3>Purina Mirringo </h3>
+                <p>Calidad Premium</p>
+                <p class="Precio">$25000</p>
+                <a href="#" class="agregar-carrito btn-3" data-id="6">
+                    Agregar al carrito
+                </a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="Imagenes/don kat.png" alt="">
+            <div class="product-txt">
+                <h3>Purina kat</h3>
+                <p>Calidad Premium</p>
+                <p class="Precio">$25000</p>
+                <a href="#" class="agregar-carrito btn-3" data-id="7">
+                    Agregar al carrito
+                </a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="Imagenes/Kat Show.png" alt="">
+            <div class="product-txt">
+                <h3>Comida humeda </h3>
+                <p>Calidad Premium</p>
+                <p class="Precio">$25000</p>
+                <a href="#" class="agregar-carrito btn-3" data-id="8">
+                    Agregar al carrito
+                </a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="" alt="">
+            <div class="product-txt">
+                <h3>arena para gatos</h3>
+                <p>Calidad Premium</p>
+                <p class="Precio">$25000</p>
+                <a href="#" class="agregar-carrito btn-3" data-id="9">
+                    Agregar al carrito
+                </a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="" alt="">
+            <div class="product-txt">
+                <h3>Cepillo para gatos</h3>
+                <p>Calidad Premium</p>
+                <p class="Precio">$25000</p>
+                <a href="#" class="agregar-carrito btn-3" data-id="10">
+                    Agregar al carrito
+                </a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="" alt="">
+            <div class="product-txt">
+                <h3>Purina</h3>
+                <p>Calidad Premium</p>
+                <p class="Precio">$25000</p>
+                <a href="#" class="agregar-carrito btn-3" data-id="11">
+                    Agregar al carrito
+                </a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="" alt="">
+            <div class="product-txt">
+                <h3>Purina</h3>
+                <p>Calidad Premium</p>
+                <p class="Precio">$25000</p>
+                <a href="#" class="agregar-carrito btn-3" data-id="12">
+                    Agregar al carrito
+                </a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="" alt="">
+            <div class="product-txt">
+                <h3>Purina</h3>
+                <p>Calidad Premium</p>
+                <p class="Precio">$25000</p>
+                <a href="#" class="agregar-carrito btn-3" data-id="13">
+                    Agregar al carrito
+                </a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="" alt="">
+            <div class="product-txt">
+                <h3>Purina</h3>
+                <p>Calidad Premium</p>
+                <p class="Precio">$25000</p>
+                <a href="#" class="agregar-carrito btn-3" data-id="14">
+                    Agregar al carrito
+                </a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="" alt="">
+            <div class="product-txt">
+                <h3>Purina</h3>
+                <p>Calidad Premium</p>
+                <p class="Precio">$25000</p>
+                <a href="#" class="agregar-carrito btn-3" data-id="15">
+                    Agregar al carrito
+                </a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="" alt="">
+            <div class="product-txt">
+                <h3>Purina</h3>
+                <p>Calidad Premium</p>
+                <p class="Precio">$25000</p>
+                <a href="#" class="agregar-carrito btn-3" data-id="16">
+                    Agregar al carrito
+                </a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="" alt="">
+            <div class="product-txt">
+                <h3>Purina</h3>
+                <p>Calidad Premium</p>
+                <p class="Precio">$25000</p>
+                <a href="#" class="agregar-carrito btn-3" data-id="17">
+                    Agregar al carrito
+                </a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="" alt="">
+            <div class="product-txt">
+                <h3>Purina</h3>
+                <p>Calidad Premium</p>
+                <p class="Precio">$25000</p>
+                <a href="#" class="agregar-carrito btn-3" data-id="18">
+                    Agregar al carrito
+                </a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="" alt="">
+            <div class="product-txt">
+                <h3>Purina</h3>
+                <p>Calidad Premium</p>
+                <p class="Precio">$25000</p>
+                <a href="#" class="agregar-carrito btn-3" data-id="19">
+                    Agregar al carrito
+                </a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="" alt="">
+            <div class="product-txt">
+                <h3>Purina</h3>
+                <p>Calidad Premium</p>
+                <p class="Precio">$25000</p>
+                <a href="#" class="agregar-carrito btn-3" data-id="20">
+                    Agregar al carrito
+                </a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="" alt="">
+            <div class="product-txt">
+                <h3>Purina</h3>
+                <p>Calidad Premium</p>
+                <p class="Precio">$25000</p>
+                <a href="#" class="agregar-carrito btn-3" data-id="21">
+                    Agregar al carrito
+                </a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="" alt="">
+            <div class="product-txt">
+                <h3>Purina</h3>
+                <p>Calidad Premium</p>
+                <p class="Precio">$25000</p>
+                <a href="#" class="agregar-carrito btn-3" data-id="22">
+                    Agregar al carrito
+                </a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="" alt="">
+            <div class="product-txt">
+                <h3>Purina</h3>
+                <p>Calidad Premium</p>
+                <p class="Precio">$25000</p>
+                <a href="#" class="agregar-carrito btn-3" data-id="23">
+                    Agregar al carrito
+                </a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="" alt="">
+            <div class="product-txt">
+                <h3>Purina</h3>
+                <p>Calidad Premium</p>
+                <p class="Precio">$25000</p>
+                <a href="#" class="agregar-carrito btn-3" data-id="24">
+                    Agregar al carrito
+                </a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="" alt="">
+            <div class="product-txt">
+                <h3>Purina</h3>
+                <p>Calidad Premium</p>
+                <p class="Precio">$25000</p>
+                <a href="#" class="agregar-carrito btn-3" data-id="25">
+                    Agregar al carrito
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="btn-2" id="load-more">Cargar Mas</div>
+
+</main>
+
+<section class="testimonial container">
+    <span>Testimoniales</span>
+    <h2>Que opinan nuestros clientes</h2>
+    <div class="testimonial-content">
+        <div class="testimonial-1">
+            <p>
+                el servicio me parece espectacular, la facilidad de ralizar compras en linea permiten avanzar 
+                tareas complejas como ir a un supermercado y más si tu trabajo o ocupaciones no te lo permiten.
+            </p>
+            <img src="Imagenes/starts.png" alt="">
+            <h4>lorem impsum</h4>
+        </div>
+    </div>
+
+    <div class="testimonial-content">
+        <div class="testimonial-1">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur dolore possimus quam itaque
+                 laboriosam eveniet deserunt nobis velit cupiditate ut, facere tempora, eligendi id 
+                atque quisquam cumque temporibus, architecto exercitationem.
+            </p>
+            <img src="Imagenes/starts.png" alt="">
+            <h4>lorem impsum</h4>
+        </div>
+    </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="footer-content container">
+        <div class="link">
+            <h3>lorem</h3>
+            <ul>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+            </ul>
+        </div>
+
+        <div class="link">
+            <h3>lorem</h3>
+            <ul>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+            </ul>
+        </div>
+
+        <div class="link">
+            <h3>lorem</h3>
+            <ul>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+            </ul>
+        </div>
+    </div>
+
+</footer>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
